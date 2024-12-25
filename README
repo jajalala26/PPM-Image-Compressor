@@ -1,0 +1,26 @@
+
+Assignment: arith
+Authors:    Jared Lee (jalee04) and Coby Keren (jkeren01)
+Date:       10/24/23
+
+Architecture: Arith is composed of a driver 40image.c, compression and 
+              decompression files compress.c and decompress.c and
+              their respective header files, a file for the structs used
+              by compress.c and decompress.c, and a file for bitpacking
+              functions bitpack.c. The driver for arith calls the
+              compression and decompression functions according to the input 
+              that it recieves, and the compression and decompression 
+              functions may rely on the structs and bitpacking functions.
+              Additionally, the Hanson library is used for key opperations 
+              that deal with allocating and freeing memory, as well as making
+              assertions. Lastly, the key data structures UArray2b_T and 
+              UArray2_T and their methods were given to us by the CS40 Solutions
+              to Locality, and they rely on the Hanson library for UArray_T.
+
+Help: Office hours, man pages, geeksforgeeks
+
+To our knowledge, everything has been succesfully implemented.
+
+Time spent analyzing problems: 15 hours
+
+Time spent solving problems: 20 hours
